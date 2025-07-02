@@ -1,4 +1,5 @@
-import { getApiBaseUrl, getApiConfig } from '../config/index.js';
+import { getApiBaseUrl } from '../config/index.js';
+import { getApiConfig } from '../services/api.js';
 
 /**
  * Verifica la conexión con el backend y muestra información de configuración
