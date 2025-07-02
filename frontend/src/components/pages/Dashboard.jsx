@@ -283,7 +283,7 @@ const Dashboard = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           {/* Gráfica de predicciones */}
           <div className="bg-gray-100 p-4 rounded-lg shadow-inner">
-            <h2 className="font-semibold mb-2">Sales Performance</h2>
+            <h2 className="font-semibold mb-2">model prediction</h2>
             <div className="h-60 bg-white rounded border border-dashed flex justify-center items-center">
               {graphLoading ? (
                 <span className="text-gray-500">Cargando...</span>
