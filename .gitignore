@@ -321,7 +321,7 @@ data/
 *.csv
 *.xlsx
 *.xls
-*.json
+
 
 # Model files
 *.pkl
