@@ -284,7 +284,7 @@ const Dashboard = () => {
           {/* Gráfica de predicciones */}
           <div className="bg-gray-100 p-4 rounded-lg shadow-inner">
             <h2 className="font-semibold mb-2">model prediction</h2>
-            <div className="h-60 bg-white rounded border border-dashed flex justify-center items-center">
+            <div className="h-80 bg-white rounded border border-dashed flex justify-center items-center">
               {graphLoading ? (
                 <span className="text-gray-500">Cargando...</span>
               ) : graphError ? (
@@ -315,7 +315,7 @@ const Dashboard = () => {
                 </option>
               ))}
             </select>
-            <div className="h-48 bg-white rounded border border-dashed flex justify-center items-center">
+            <div className="h-80 bg-white rounded border border-dashed flex justify-center items-center">
               {descriptiveLoading ? (
                 <span className="text-gray-500">Cargando...</span>
               ) : selectedGraphData ? (
@@ -328,7 +328,7 @@ const Dashboard = () => {
         </section>
   
         {/* Upload de Archivos */}
-        <section className="bg-gray-100 p-6 rounded-lg text-center border border-dashed border-gray-400">
+        <section className="bg-gray-100 p-3 rounded-lg text-center border border-dashed border-gray-400">
           <p className="mb-2">Drop files here or click to upload</p>
           <input 
             type="file" 
